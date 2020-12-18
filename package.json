@@ -1,0 +1,18 @@
+{
+  "name": "emichel",
+  "version": "0.0.1",
+  "description": "Qrcode genrator",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.1",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "postcss css/app.css -o build/app.css"
+  },
+  "author": "emichel",
+  "license": "MIT"
+}
